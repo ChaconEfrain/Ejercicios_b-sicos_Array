@@ -32,9 +32,9 @@ public class Array_ejercicio3 {
             int numero = lector.nextInt();
             numeros[i] = numero;  
         }
-        numeroMayor(numeros);
+        numeroMenor(numeros);
     }
-    public static void numeroMayor(int numeros[]){
+    public static void numeroMenor(int numeros[]){
         int menor = numeros[0];
         for(int i = 0; i < numeros.length; i++){
             if(numeros[i] < menor){
